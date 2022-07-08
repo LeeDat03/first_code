@@ -1,0 +1,17 @@
+a{
+    color: brown;
+    text-decoration: underline;
+}
+p,h3{
+    color: rgb(113, 113, 113);
+}
+h3{
+    margin-bottom: 1px;
+}
+p{
+    margin: 1px;
+}
+p.tour{
+    margin: 1px;
+}
+
