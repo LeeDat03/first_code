@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Layout</title>
+    </head>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        .barner,.logo{
+            border: 1px solid black;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            left: 0;
+            top: 0;
+            width: 34%;
+            height: 15%;
+            /* background-color: aquamarine; */
+        }
+        .barner{
+            right: 0;
+            top: 0;
+            width: 64%;
+            height: 15%;
+            /* background-color: aqua; */
+        }
+        .menu{
+            border: 1px solid black;
+            width: 99%;
+            height: 10%;
+            /* background-color: blue; */
+            float: left;
+        }
+        .content{
+            border: 1px solid black;
+            width: 19%;
+            height: 200%;
+            float: left;
+            /* background-color: chartreuse; */
+        }
+        .main{
+            border: 1px solid black;
+            width: 60%;
+            height: 200%;
+            float: left;
+            /* background-color: crimson; */
+        }
+        .footer{
+            border: 1px solid black;
+            width: 99%;
+            height: 25%;
+            /* background-color: rgb(255, 153, 0); */
+            float: left;
+            clear: both;
+        }
+    </style>
+    <body>
+        <div class="logo">Logo</div>
+        <div class="barner">Barner</div>
+        <div class="menu">Nevigation Menu</div>
+        <div class="content">Content</div>
+        <div class="main">Main Content</div>
+        <div class="content">Content</div>
+        <div class="footer">Footer</div>
+    </body>
+</html>
